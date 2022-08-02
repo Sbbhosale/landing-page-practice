@@ -51,7 +51,7 @@ body {
 
 .banner__details {
   /* border : 1px solid black; */
-  padding : 1rem 0;
+  padding : 1rem 0 1rem 1rem;
 }
 
 .banner__details__tag {
@@ -104,10 +104,50 @@ body {
   border-radius : .2rem;
 }
 
-
-
 .banner__image {
   /* border : 1px solid black; */
   height : 500px;
   width : 900px;
+}
+
+.companies {
+  margin-top: 4rem;
+  /* border : 1px solid black; */
+}
+
+.companies__text {
+  /* border : 1px solid black; */
+  font-size: 1.3rem;
+  text-align: center;
+  color: #455c5c;
+}
+
+.companies__text--highlighted {
+  color : #1264e3;
+  font-weight: bold;
+}
+.companies__logos {
+  text-align: center;
+}
+.logos {
+  height : 80px;
+  width : 200px;
+  margin : 1rem 1.5rem;
+}
+
+.companies__logos__sony {
+  height : 100px;
+}
+
+.companies__logos__louis-vatton {
+  margin-bottom: 1.6rem;
+}
+
+.companies__logos__slack {
+  margin-bottom: 1.5rem;
+  height : 90px;
+}
+
+.companies__logos__facebook {
+  margin-bottom: 2rem;
 }
