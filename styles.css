@@ -39,7 +39,75 @@ body {
 .navigation__brandName {
   /*   border : 1px solid black; */
     font-size : 1.5rem;
-    font-weight : bold;
+    font-weight : 750;
     font-family : arial;
     
+}
+
+.banner {
+  display : flex;
+  margin-top: 1rem;
+}
+
+.banner__details {
+  /* border : 1px solid black; */
+  padding : 1rem 0;
+}
+
+.banner__details__tag {
+  /* border : 1px solid red; */
+  background: #e6edef;
+  color : #414e4f;
+  width : 270px;
+  padding : .5rem 0;
+  border-radius: 1.5rem;
+  text-align: center;
+  margin : 1.5rem 0;
+}
+
+.banner__details__heading {
+  font-size : 3.7rem;
+  font-weight: bold;
+  width: 530px;
+  /* border: 1px solid black; */
+}
+
+.banner__details__subHeading {
+  /* border: 1px solid black; */
+  width: 530px;
+  color : #465555;
+  margin: 1.5rem 0;
+}
+
+.btn {
+  font-size: 1rem;
+  padding : .9rem 1.5rem;
+  margin-right: 1rem;
+}
+
+.banner__details__btn {
+  /* border: 1px solid black; */
+  padding: 1.5rem 0;
+}
+
+.banner__details__btn--start {
+  background-color: #1264e3;
+  color: white;
+  border : 1px solid #1264e3;
+  border-radius : .2rem;
+}
+
+.banner__details__btn--contact {
+  background-color: white;
+  color: #727272;
+  border : 1px solid black;
+  border-radius : .2rem;
+}
+
+
+
+.banner__image {
+  /* border : 1px solid black; */
+  height : 500px;
+  width : 900px;
 }
