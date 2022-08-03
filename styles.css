@@ -1,5 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;500&display=swap');
+
 * {
-    font-family : arial;
+  font-family: 'Open Sans', sans-serif;
     padding : 0;
     margin : 0;
 }
@@ -70,8 +72,8 @@ body {
 }
 
 .banner__details__heading {
-  font-size : 3.7rem;
-  font-weight: bold;
+  font-size : 3.8rem;
+  font-weight: bolder;
   width: 530px;
   /* border: 1px solid black; */
 }
@@ -170,7 +172,7 @@ body {
 
 .features > * {
   /* border : 1px solid black; */
-  width : 250px;
+  width : 270px;
   padding : 1rem 1rem 1rem 0;
 }
 
@@ -182,7 +184,7 @@ body {
   justify-content: center;
   align-items: center;
   border-radius: .6rem;
-  margin-bottom: 1rem;
+  margin-bottom: 1.5rem;
   box-shadow: 0px 5px 10px #777778;
 }
 
@@ -208,7 +210,7 @@ body {
 }
 
 .f_link {
-  margin-top: 2rem;
+  margin-top: 2.5rem;
   font-size: 1.3rem;
   font-weight: bold;
   display: flex;
