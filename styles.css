@@ -157,3 +157,69 @@ body {
 .companies__logos__facebook {
   margin-bottom: 2rem;
 }
+
+.features {
+  display: flex;
+  margin-top: 2rem;
+  margin-bottom: 10rem;
+  /* border: 1px solid black; */
+  padding : 1rem 1rem 1rem 2rem;
+  justify-content: space-between;
+}
+
+
+.features > * {
+  /* border : 1px solid black; */
+  width : 250px;
+  padding : 1rem 1rem 1rem 0;
+}
+
+.f_logo {
+  /* border : 1px solid black; */
+  height : 3.5rem;
+  width : 3.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: .6rem;
+  margin-bottom: 1rem;
+  box-shadow: 0px 5px 10px #777778;
+}
+
+.features__f1__logo{
+  background-color: #1264e3;
+  color: white;
+}
+
+.features__f2__logo{
+  background-color: #ff8a00;
+  color : white;
+}
+
+.features__f3__logo{
+  background-color: #2ed841;
+  color : white;
+}
+
+.f_heading {
+  font-weight: bold;
+  font-size: 1.1rem;
+  margin-bottom: .5rem;
+}
+
+.f_link {
+  margin-top: 2rem;
+  font-size: 1.3rem;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+}
+.fa-long-arrow-right{
+  /* border: 1px solid black; */
+  padding-top: .1rem;
+  margin-left: .5rem;
+}
+
+.f_shortInfo {
+  line-height: 1.5;
+}
