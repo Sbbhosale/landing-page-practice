@@ -9,6 +9,7 @@
 body {
     width : 1140px;
     margin : auto;
+    margin-bottom: 10rem;
 }
 
 /* navigation styling */
@@ -118,6 +119,8 @@ body {
   width : 900px;
 }
 
+/* companies section styled */
+
 .companies {
   margin-top: 4rem;
   /* border : 1px solid black; */
@@ -160,10 +163,12 @@ body {
   margin-bottom: 2rem;
 }
 
+/* companies key provides styling */
+
 .features {
   display: flex;
   margin-top: 2rem;
-  margin-bottom: 10rem;
+  margin-bottom: 5rem;
   /* border: 1px solid black; */
   padding : 1rem 1rem 1rem 2rem;
   justify-content: space-between;
@@ -224,4 +229,52 @@ body {
 
 .f_shortInfo {
   line-height: 1.5;
+}
+
+/* company stats section styling */
+
+.companyStats{
+  position: relative;
+}
+
+.companyStats__heading{
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.companyStats__image{
+  width : 1030px;
+  height : 400px;
+  border-radius: 7%;
+  padding: 0 3.5rem;
+  margin-top: 3rem;
+}
+
+.companyStats__stats{
+  position: absolute;
+  top : 80%;
+  right: 17%;
+  width : 750px;
+  height: 120px;
+  display: flex;
+  padding: 1rem;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #1264e3;
+  padding: 1rem;
+  border-radius: 1rem;
+}
+
+.companyStats__stats > *{
+  text-align: center;
+  width: 200px;
+  background-color: #1264e3;
+  color: white;
+  padding: 1rem;
+}
+
+.stats > div {
+  font-weight: bold;
+  font-size: 1.3rem;
+  margin-bottom: .5rem;
 }
